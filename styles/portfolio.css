@@ -17,11 +17,17 @@ h6 {
   font-weight: bold;
 }
 h1 {
-  font-size: 86px;
+  font-size: 60px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 54px;
 }
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .hero {
   background-color: var(--secondary-color);
@@ -48,4 +54,27 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 16px 30px;
+}
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 16px 30px;
+  border-radius: 4px;
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 20px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
