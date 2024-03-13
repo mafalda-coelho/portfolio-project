@@ -81,3 +81,6 @@ p {
 img {
   margin-top: 100px;
 }
+.project-heading p {
+  font-size: 26px;
+}
