@@ -17,7 +17,7 @@ h6 {
   font-weight: bold;
 }
 h1 {
-  font-size: 60px;
+  font-size: 80px;
   line-height: 1.5;
 }
 h2 {
@@ -80,5 +80,4 @@ p {
 }
 img {
   margin-top: 100px;
-  margin-bottom: 50px;
 }
