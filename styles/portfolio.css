@@ -77,10 +77,11 @@ p {
     padding: 0;
     text-align: center;
   }
+  img {
+    margin-top: 100px;
+  }
 }
-img {
-  margin-top: 100px;
-}
+
 .project-heading p {
   font-size: 26px;
 }
