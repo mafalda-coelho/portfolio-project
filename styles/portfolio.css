@@ -80,6 +80,9 @@ p {
   img {
     margin-top: 100px;
   }
+  nav a {
+    font-size: 16px;
+  }
 }
 
 .project-heading p {
@@ -90,8 +93,8 @@ p {
   text-align: center;
 }
 .content h1 {
-  font-size: 68px;
   line-height: 80px;
+  font-size: 60px;
 }
 
 .content h2 {
@@ -116,4 +119,37 @@ p {
 }
 .contact-me {
   background-color: var(--secondary-color);
+}
+.logo {
+  max-width: 150px;
+  margin-top: 0;
+}
+.logo-n2 {
+  max-width: 40px;
+  margin-top: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  color: var(--branding-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: var(--secondary-color);
+}
+nav li.active a {
+  color: black;
 }
