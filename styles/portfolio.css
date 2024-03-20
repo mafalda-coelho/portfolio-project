@@ -85,3 +85,24 @@ p {
 .project-heading p {
   font-size: 26px;
 }
+.about-section {
+  padding: 50px;
+  text-align: center;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
+.image-about {
+  width: 500px;
+  padding: 0 80px;
+  margin-bottom: 30px;
+}
