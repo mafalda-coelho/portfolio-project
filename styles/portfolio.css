@@ -114,3 +114,6 @@ p {
   padding: 0 80px;
   margin-bottom: 30px;
 }
+.contact-me {
+  background-color: var(--secondary-color);
+}
